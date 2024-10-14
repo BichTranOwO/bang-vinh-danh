@@ -174,12 +174,15 @@ a:hover {
     padding: 25px;
 }
 
-footer {
+.thongtin {
     width: 100%;
     height: 100px;
     background-color: rgb(217, 224, 224);
     text-align: center;
-    align-items: center;
+    display: flex;
+  flex-direction: column;
+    align-items:center;
     padding: 10px;
-    margin-top: 20PX;
+    margin-top: 100%;
+    clear: both;
 }
